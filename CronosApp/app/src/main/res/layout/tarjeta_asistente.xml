@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rltarjeta_asistente"
+    android:layout_width="fill_parent"
+    android:layout_height="90.0dip"
+    android:background="@color/cardview_light_background"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:id="@+id/dataContent"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txvTodoAsistente"
+            android:layout_width="match_parent"
+            android:layout_height="90.0dip"
+            android:padding="0.0px"
+            android:textSize="20sp"
+            android:text="HOLA PERRO"
+            android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+</RelativeLayout>
